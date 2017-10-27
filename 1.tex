@@ -1,0 +1,133 @@
+\documentclass{article}
+\usepackage[a4paper,left=3.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
+\usepackage[MeX]{polski}
+\usepackage[cp1250]{inputenc}
+\usepackage{polski}
+\usepackage{graphicx}
+\usepackage[table]{xcolor}
+\usepackage{booktabs}
+ %%\usepackage[utf8]{inputenc}
+\usepackage[pdftex]{hyperref}
+\usepackage{makeidx}
+\usepackage{sidecap}
+\usepackage{wrapfig}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[tableposition=top]{caption}
+\usepackage{algorithmic}
+\usepackage{enumerate}
+\usepackage{multirow}
+\usepackage{amsmath} %pakiet matematyczny
+\usepackage{amssymb} %pakiet dodatkowych symboli
+\begin{document}
+\begin{table}
+\centering	
+		\begin{tabular}{|c|c|c|c|c|c|c|}
+		\hline
+		\multirow{2}{*}{No. of visual words}
+		& \multicolumn{6}{c|}{Dataset} \\ \cline{2-7}
+      & 1 & 2 & 3 & 4 & 5 & 6 \\ \hline
+		50 & 61.27\% & 88.92\% &77.88\%& 87.89\%
+		& 92.04\% & 96.65 \% \\ \hline
+		100 & 64.60\% & 89.40\% &80.41\%& 92.05\%
+		& 95.81\% & 97.12 \% \\ \hline
+		\end{tabular}
+	\caption{final classifcation}
+	\label{tab:final}
+\end{table}
+\begin{figure}[h!]
+\caption{Ogórek pokrojony}
+\centering
+  \includegraphics[width=0.5\textwidth]{obrazek1.jpg}
+	\end{figure}
+	\begin{figure}[h!]
+\caption{Pomidor}
+\centering
+  \includegraphics[width=0.5\textwidth]{obrazek2.jpg}
+	\end{figure}	
+	\begin{figure}[h!]
+	\centering
+	\reflectbox{
+\includegraphics[width=0.5\textwidth]{obrazek2.jpg}}
+	\caption{ten sam pomidor w drugą strone}
+	\end{figure}
+		\begin{figure}[here]
+		\vspace{0pt}
+		\begin{center}
+		\includegraphics[scale=0.2]{obrazek2.jpg}
+		\reflectbox{
+		\includegraphics[scale=0.3]{obrazek2.jpg}}
+		\includegraphics[scale=0.4]{obrazek2.jpg}
+		\reflectbox{
+		\includegraphics[scale=0.5]{obrazek2.jpg}}
+		\caption{POMIDORY!!}
+		\end{center}
+		\vspace{0pt}
+		\end{figure}
+		
+		\begin{table}
+			\centering
+				\begin{tabular}{c|ccc}
+				\hline
+				\hline
+				$Pacjent$ & $Bol brzucha$ & $Temepratura ciala$ & $Operacja$ \\ \hline
+				$u1$& $mocny$ & $Wysoka$ & $Tak$  \\
+				$u2$& $sredni$& $Wysoka$ & $Tak$ \\
+				$u3$& $mocny$ & $srednia$& $Tak$  \\
+				$u4$& $mocny$ & $Niska$ & $Tak$  \\
+				$u5$& $sredni$& $sredna$ & $Tak$  \\
+				$u6$& $mocny$ & $Wysoka$ & $Tak$  \\
+				$u7$& $mocny$ & $Wysoka$ & $nie$  \\
+				$u8$& $mocny$ & $Wysoka$ & $nie$  \\
+				$u9$& $mocny$ & $Wysoka$ & $nie$  \\
+				$u1$& $mocny$ & $Wysoka$ & $nie$  \\
+				\hline
+				\hline
+		\end{tabular}
+		\end{table}
+		
+		\begin{table}
+			\centering
+				\begin{tabular}{c|c|c}
+				\hline
+				\hline
+			$x_{1}$&$x_{2}$&$(x_{1}ANDx_{2})$\\ \hline
+					1 & 1 & 1 \\
+					1 & 0 & 0 \\
+					0 & 1 & 0 \\
+					0 & 0 & 0 \\
+					\hline
+					\hline
+		\end{tabular}
+		\end{table}
+		
+		\begin{table}
+\centering	
+	\rowcolors{1}{yellow}{orange}
+		\begin{tabular}{|c|c|}
+	\hline
+		$7c0$ & $hexadecimal$ \\
+		$3700$ & $octal$ \\
+		$11111000000$ & $binary$ \\ \cline{2-2}
+		\hline
+		\hline
+		$1984$ & $decimal$\\
+		\hline
+		\end{tabular}
+		\end{table}
+		
+		\begin{table}
+			\centering
+				\begin{tabular}{|c|c|c|c|}
+				\hline
+			  \multicolumn{4}{|c|}{Primcs} \\ \hline
+				2 & 3 & 5 & 7 \\ \hline
+			  \multirow{2}{*}{Powers} 
+				
+				
+				
+					
+				\end{tabular}
+		\end{table}
+		
+	\end{document}
